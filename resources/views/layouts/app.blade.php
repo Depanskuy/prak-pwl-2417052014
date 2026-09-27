@@ -8,15 +8,12 @@
 </head>
 <body class="d-flex flex-column min-vh-100 bg-light">
     
-    <!-- Memanggil Komponen Navbar -->
     @include('components.navbar')
 
-    <!-- Konten Utama -->
     <main class="container flex-grow-1">
         @yield('content')
     </main>
 
-    <!-- Memanggil Komponen Footer -->
     @include('components.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
